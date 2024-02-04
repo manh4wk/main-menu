@@ -6,10 +6,28 @@
       {
         "id": "domino-help-menu",
         "label": "Domino Links",
-        "rank": 80,
+        "rank": 700, 
         "items": [
           {
-            "command": "jlab-examples:main-menu",
+            "command": "jlab-examples:main-menu1",
+            "args": {
+              "origin": "from the menu"
+            }
+          },
+          {
+            "command": "jlab-examples:main-menu2",
+            "args": {
+              "origin": "from the menu"
+            }
+          },
+          {
+            "command": "jlab-examples:main-menu3",
+            "args": {
+              "origin": "from the menu"
+            }
+          },
+          {
+            "command": "jlab-examples:main-menu4",
             "args": {
               "origin": "from the menu"
             }
