@@ -1,11 +1,11 @@
 {
-  "title": "Main Menu Example",
-  "description": "Main Menu Example settings.",
+  "title": "Domino Help Menu",
+  "description": "Domino help menu settings",
   "jupyter.lab.menus": {
     "main": [
       {
-        "id": "jp-mainmenu-example-menu",
-        "label": "Main Menu Example",
+        "id": "domino-help-menu",
+        "label": "Domino Links",
         "rank": 80,
         "items": [
           {

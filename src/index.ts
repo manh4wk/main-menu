@@ -3,16 +3,13 @@ import {
   JupyterFrontEndPlugin,
 } from '@jupyterlab/application';
 
-import { ICommandPalette } from '@jupyterlab/apputils';
-
 /**
  * Initialization data for the main menu example.
  */
 const extension: JupyterFrontEndPlugin<void> = {
   id: 'main-menu',
   autoStart: true,
-  requires: [ICommandPalette],
-  activate: (app: JupyterFrontEnd, palette: ICommandPalette) => {
+  activate: (app: JupyterFrontEnd) => {
     const { commands } = app;
 
     // Add a command
@@ -24,19 +21,9 @@ const extension: JupyterFrontEndPlugin<void> = {
         console.log(
           `jlab-examples:main-menu has been called ${args['origin']}.`
         );
-        window.alert(
-          `jlab-examples:main-menu has been called ${args['origin']}.`
-        );
       },
     });
 
-    // Add the command to the command palette
-    const category = 'Extension Examples';
-    palette.addItem({
-      command,
-      category,
-      args: { origin: 'from the palette' },
-    });
   },
 };
 
