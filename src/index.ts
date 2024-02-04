@@ -21,6 +21,7 @@ const extension: JupyterFrontEndPlugin<void> = {
         console.log(
           `jlab-examples:main-menu1 has been called ${args['origin']}.`
         );
+        window.open('https://discourse.jupyter.org/c/jupyterlab');
       },
     });
 
@@ -33,6 +34,7 @@ const extension: JupyterFrontEndPlugin<void> = {
         console.log(
           `jlab-examples:main-menu2 has been called ${args['origin']}.`
         );
+        window.open('https://google.com/2');
       },
     });
 
@@ -45,6 +47,7 @@ const extension: JupyterFrontEndPlugin<void> = {
         console.log(
           `jlab-examples:main-menu3 has been called ${args['origin']}.`
         );
+        window.open('https://google.com/3');
       },
     });
 
@@ -57,6 +60,7 @@ const extension: JupyterFrontEndPlugin<void> = {
         console.log(
           `jlab-examples:main-menu4 has been called ${args['origin']}.`
         );
+        window.open('https://google.com/4');
       },
     });
 

@@ -26,6 +26,7 @@ const extension = {
             caption: 'Execute jlab-examples:main-menu Command1',
             execute: (args) => {
                 console.log(`jlab-examples:main-menu1 has been called ${args['origin']}.`);
+                window.open('https://discourse.jupyter.org/c/jupyterlab');
             },
         });
         // User Logs
@@ -35,6 +36,7 @@ const extension = {
             caption: 'Execute jlab-examples:main-menu2 Command',
             execute: (args) => {
                 console.log(`jlab-examples:main-menu2 has been called ${args['origin']}.`);
+                window.open('https://google.com/2');
             },
         });
         // User Logs
@@ -44,6 +46,7 @@ const extension = {
             caption: 'Execute jlab-examples:main-menu3 Command',
             execute: (args) => {
                 console.log(`jlab-examples:main-menu3 has been called ${args['origin']}.`);
+                window.open('https://google.com/3');
             },
         });
         // User Logs
@@ -53,6 +56,7 @@ const extension = {
             caption: 'Execute jlab-examples:main-menu4 Command',
             execute: (args) => {
                 console.log(`jlab-examples:main-menu4 has been called ${args['origin']}.`);
+                window.open('https://google.com/4');
             },
         });
     },
@@ -63,4 +67,4 @@ const extension = {
 /***/ })
 
 }]);
-//# sourceMappingURL=lib_index_js.c72b6247c4c067a528e6.js.map
+//# sourceMappingURL=lib_index_js.69e2b8c1d9625582de6c.js.map
